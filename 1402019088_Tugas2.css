@@ -1,0 +1,112 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: initial;
+}
+
+body{
+    background: #fff;
+}
+
+
+section h2{
+    position: absolute;
+    color: #fff;
+    font-size: 12ee;
+}
+
+section{
+     position: relative;
+   width: 100%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== */
+:root {
+  --bg-prim: linear-gradient(#494986, #63a1b4);
+  --bg-prim2: linear-gradient(#63a1b4, #494986);
+  --f-prim: "Rubik", sans-serif;
+}
+
+    
+body {
+  font-family: var(--f-prim);
+  background: var(--bg-prim);
+}
+/* ========= */
+
+
+
+.navbar-brand{
+    font-family: monospace;
+    color: azure;
+}
+h1{
+    font-family: fantasy;
+}
+
+.nav-item{
+    margin: 0 15px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.fa-users{
+    margin-right: 10px;
+}
+
+.sosial{
+    color: yellow;
+    margin-right: 30px;
+}
+
+.my{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.myd{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.foot{
+    height: 40px;
+}
+
+
+.gambar{
+    margin-left: 30px;
+}
+
+/* .body{
+  background-color: rgba(156, 156, 134, 0.404);
+} */
+
+#sapa{
+    font-family:initial;
+    font-size: 30px;
+    text-align: center;
+}
+#sap {
+    font-family: initial;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+#time{
+    font-family: initial;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.extra-div:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
